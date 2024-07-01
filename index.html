@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kristal Kola</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="2022logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="2022logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="2022logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="2022logo.png">
+    <link rel="manifest" href="2022logo.png">
+    <meta name="msapplication-TileImage" content="2022logo.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <main class="main" id="top">
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="2022logo.png" height="31" alt="logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Anasayfa</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html#validation">Kurumsal</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="kariyer.html">Kariyer</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="iletişim.html">İletişim</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="s.s.s.html">S.S.S</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="pt-7">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-md-start text-center py-6">
+              <h1 class="mb-4 fs-9 fw-bold">KRİSTAL KOLA ve MEŞRUBAT SANAYİ TİCARET A.Ş.</h1>
+              <p class="mb-6 lead text-secondary">Meşrubat sanayimizin önde gelen şirketlerinden biri olan Kristal Kola 1994 yılında İhlas Holding A.Ş. bünyesinde faaliyete başlamış olup 20 Mart 2014 tarihinden itibaren gruptan ayrılmıştır. Yurtiçi ve yurt dışı satışları ile tüketicinin beğenisini kazanarak sektördeki yerini almıştır.<br class="d-none d-xl-block" />Kristal Kola,girişken ve yeniliğe açık kimliği ile Türkiye genelinde iki meşrubat bir dogal kaynak suyu ve bir de doğal maden suyu olmak üzere toplam dört adet üretim tesisine sahiptir.Bugün üretimini Balıkesir,Edremit,Sapanca ve Kırıkkale'deki tesislerinde yapmaktadır.Toplam 108.634 metrekare yüzölçümündeki tesislerinin 16.436 metrekaresi kapalı alan olarak kullanılmaktadır.Üretim kapasitesi,ihracatı,yüksek verimliliği, AR-GE yatırımları ve teknolojik üstünlükleriyle bugün Türk meşrubat sanayinin en güçlü yerli üretim kuruluşlarından biridir.<br class="d-none d-xl-block" /></p>
+              <div class="btn btn-link text-warning fw-medium" data-bs-toggle="modal" data-bs-target="#popupVideo">
+                <span class="fas fa-play me-2"></span>Videoyu İzleyin
+              </div>
+
+              <div class="modal fade" id="popupVideo" tabindex="-1" aria-labelledby="popupVideoLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="popupVideoLabel">Video Player</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <video controls class="embed-responsive-item" id="videoPlayer">
+                          <source src="kristalkola-anaslayt.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <script>
+                $('#popupVideo').on('hidden.bs.modal', function (e) {
+                  $('#videoPlayer').trigger('pause');
+                });
+              </script>
+              <style>
+                .modal-dialog {
+                  max-width: 90vw;
+                  max-height: 90vh;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+
+                .modal-body {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 100%;
+                }
+
+                .modal-content {
+                  width: 90%;
+                  max-width: 700px;
+                }
+
+                .modal-body video {
+                  max-width: 100%;
+                  height: auto;
+                }
+              </style>
+            </div>
+            <div class="slider">
+              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="KOLA-KÖPÜK-500X780.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="KRISTAL-SU-01-500X780.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="KRISTAL-KOLA-500X780.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pt-5 pt-md-9 mb-6" id="feature">
+        <div class="bg-holder z-index--1 bottom-0 d-none d-lg-block" style="background-image:url(assets/img/category/shape.png);opacity:.5;">
+        </div>
+        <div class="container text-center">
+          <img src="markalarimiz.jpg" alt="Your Image Description" class="img-fluid">
+        </div>
+      </section>
+
+      <section class="pt-5" id="validation">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h5 class="text-secondary"></h5>
+              <h2 class="mb-2 fs-7 fw-bold"> KURUMSAL</h2>
+              <div class="container">
+                <p>Meşrubat sanayimizin önde gelen şirketlerinden biri olan Kristal Kola 1994 yılında İhlas Holding A.Ş. bünyesinde faaliyete başlamış olup 20 Mart 2014 tarihinden itibaren gruptan ayrılmıştır. Yurtiçi ve yurt dışı satışları ile tüketicinin beğenisini kazanarak sektördeki yerini almıştır.<br>
+                Kristal Kola,girişken ve yeniliğe açık kimliği ile Türkiye genelinde iki meşrubat bir dogal kaynak suyu ve bir de doğal maden suyu olmak üzere toplam dört adet üretim tesisine sahiptir.Bugün üretimini Balıkesir,Edremit,Sapanca ve Kırıkkale'deki tesislerinde yapmaktadır.Toplam 108.634 metrekare yüzölçümündeki tesislerinin 16.436 metrekaresi kapalı alan olarak kullanılmaktadır.Üretim kapasitesi,ihracatı,yüksek verimliliği, AR-GE yatırımları ve teknolojik üstünlükleriyle bugün Türk meşrubat sanayinin en güçlü yerli üretim kuruluşlarından biridir.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-light pt-8 pt-md-11 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <img class="mb-4" src="2022logo.png" width="160" alt="" />
+            <p class="text-secondary">© KRİSTAL KOLA ve MEŞRUBAT SANAYİ TİCARET A.Ş. <br>Tüm hakları saklıdır.</p>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h4 class="h6">Anasayfa</h4>
+            <ul class="list-unstyled mb-0 text-secondary">
+              <li class="mb-3"><a class="text-secondary" href="#!">Kurumsal</a></li>
+              <li class="mb-3"><a class="text-secondary" href="#!">Kariyer</a></li>
+              <li class="mb-3"><a class="text-secondary" href="#!">Markalarımız</a></li>
+              <li class="mb-3"><a class="text-secondary" href="#!">İletişim</a></li>
+              <li class="mb-3"><a class="text-secondary" href="#!">S.S.S</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

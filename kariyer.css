@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px 0;
+}
+
+header .logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.career-intro {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.career-opportunities {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-listing {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.job-listing h4 {
+    margin: 0;
+}
+
+.job-listing p {
+    margin: 5px 0;
+}
+
+.apply-form {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.apply-form h3 {
+    margin-top: 0;
+}
+
+.apply-form form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.apply-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.apply-form input,
+.apply-form button {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.apply-form button {
+    background-color: #ad1919;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.apply-form button:hover {
+    background-color: #b31e1e;
+}
+
+footer {
+    background-color: #cd1616;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
